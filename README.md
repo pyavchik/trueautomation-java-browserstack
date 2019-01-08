@@ -1,15 +1,21 @@
-# trueautomation-java-example
+# trueautomation-java-browserstack
 
-You must have installed TrueAutomation client, JDK 8 or later. 
+You must have: <br>
+installed TrueAutomation client, JDK 8 or later. <br>
+account at www.browserstack.com
 
-## How to run test: 
+## How to run test:
 
 * Checkout project
- 
- ```
- clone https://github.com/shapovalovei/trueautomation-testng.git
- ```
 
+ ```
+ git clone https://github.com/pyavchik/trueautomation-java-browserstack.git
+ ```
+* Set up your username and automation key:
+```
+public static final String USERNAME = "USERNAME";
+public static final String AUTOMATE_KEY = "AUTOMATE_KEY";
+```
 * Init project use `trueautomation init` command
  
 * Run test
