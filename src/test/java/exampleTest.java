@@ -18,8 +18,8 @@ public class exampleTest {
     private By signupBtn = By.cssSelector(ta("signupBtn", "div.sign-up-container > a"));
     private By emailFl = By.name(ta("emailFl", "email"));
 
-    public static final String USERNAME = "sergeyratinik1";
-    public static final String AUTOMATE_KEY = "Ex88jncmCDnJrtuHK2B9";
+    public static final String USERNAME = "USERNAME";
+    public static final String AUTOMATE_KEY = "AUTOMATE_KEY";
     public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 
     @BeforeTest
